@@ -50,4 +50,4 @@ hadoop fs -get hdfs:///tmp/bdm/500cities_tracts.geojson ~/
 
 
 
-
+.
