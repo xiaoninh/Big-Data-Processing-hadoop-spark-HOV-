@@ -5,6 +5,7 @@
 --------------------------------------------------------------------------------------------------------------------------
 
 
+
 ### Imformation below is for personal user as reminder, may not be generally applicable
 
 ## PySpark
@@ -17,5 +18,7 @@ export PYSPARK_DRIVER_PYTHON=`which jupyter` export PYSPARK_DRIVER_PYTHON_OPTS=n
 ssh xh1163@dumbo.es.its.nyu.edu
 ### Off Campus:
 ssh xh1163@gw.hpc.nyu.edu
+
 ssh prince.hpc.nyu.edu
+
 ssh dumbo.hpc.nyu.edu
