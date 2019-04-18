@@ -9,7 +9,7 @@
 ### Imformation below is for personal user as reminder, may not be generally applicable
 
 # PySpark
-export PYSPARK_DRIVER_PYTHON=/`which jupyter\` export PYSPARK_DRIVER_PYTHON_OPTS=notebook export SPARK_HOME=/anaconda3/lib/python3.7/site-packages/pyspark pyspark
+export PYSPARK_DRIVER_PYTHON=\`which jupyter` export PYSPARK_DRIVER_PYTHON_OPTS=notebook export SPARK_HOME=/anaconda3/lib/python3.7/site-packages/pyspark pyspark
 
 
 # Connect to HPC
@@ -26,7 +26,7 @@ ssh dumbo.hpc.nyu.edu
 ## Initialize
 module load spark/2.4.0 python/gnu/3.4.4 gcc/5.3.0
 
-export PYSPARK_PYTHON=`which python`
+export PYSPARK_PYTHON=\`which python`
 
 module load pygdal/2.2.0.3
 
