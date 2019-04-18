@@ -9,7 +9,7 @@
 ### Imformation below is for personal user as reminder, may not be generally applicable
 
 # PySpark
-export PYSPARK_DRIVER_PYTHON=\`which jupyter` export PYSPARK_DRIVER_PYTHON_OPTS=notebook export SPARK_HOME=/anaconda3/lib/python3.7/site-packages/pyspark pyspark
+export PYSPARK_DRIVER_PYTHON=\`which jupyter` export PYSPARK_DRIVER_PYTHON_OPTS=notebook export SPARK_HOME=/anaconda3/envs/py3/lib/python3.7/site-packages/pyspark pyspark
 
 
 # Connect to HPC
