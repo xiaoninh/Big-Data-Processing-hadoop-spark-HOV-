@@ -34,10 +34,10 @@ module load pygdal/2.2.0.3
 
 spark-submit --conf spark.executorEnv.LD_LIBRARY_PATH=$LD_LIBRARY_PATH \
 --executor-cores 5 --num-executors 10 --py-files ... \
---files hdfs:///tmp/500cities_tracts.geojson,hdfs:///tmp/drug_sched2.txt,hdfs:///tmp/drug_illegal.txt \ final_challenge.py hdfs:///tmp/tweets-100m.csv
+--files hdfs:///tmp/500cities_tracts.geojson,hdfs:///tmp/drug_sched2.txt,hdfs:///tmp/drug_illegal.txt \ final_xh1163.py hdfs:///tmp/tweets-100m.csv
 
 spark-submit --conf spark.executorEnv.LD_LIBRARY_PATH=$LD_LIBRARY_PATH \
---executor-cores 5 --num-executors 10 --files hdfs:///tmp/500cities_tracts.geojson,hdfs:///tmp/drug_sched2.txt,hdfs:///tmp/drug_illegal.txt \ final_challenge.py hdfs:///tmp/tweets-100m.csv
+--executor-cores 5 --num-executors 10 --files hdfs:///tmp/500cities_tracts.geojson,hdfs:///tmp/drug_sched2.txt,hdfs:///tmp/drug_illegal.txt \ final_xh1163.py hdfs:///tmp/tweets-100m.csv
 
 
 ## Upload or Download file from Hadoop
